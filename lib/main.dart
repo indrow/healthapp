@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'package:healthapp/common/constants.dart';
+import 'package:healthapp/health_app.dart';
 import 'package:healthapp/screens/home/home_screen.dart';
 
 void main() {
@@ -23,7 +25,7 @@ class App extends StatelessWidget {
           fontFamily: "Signika Negative",
           textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
           visualDensity: VisualDensity.adaptivePlatformDensity),
-      home: const HomeScreen(),
+      home: const HealtApp(),
     );
   }
 }
