@@ -65,6 +65,7 @@ class _HealtAppState extends State<HealtApp> {
             currentIndex: _selectedIndex,
             selectedItemColor: const Color(0xff3364E1),
             unselectedItemColor: const Color.fromRGBO(5, 19, 30, 0.2),
+            type: BottomNavigationBarType.fixed,
             onTap: _onItemTapped,
           ),
         ));
