@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:healthapp/screens/home/components/body.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -8,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: baseAppBar(context),
-      body: Body(),
+      body: const Body(),
     );
   }
 }
